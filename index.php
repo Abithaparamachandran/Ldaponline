@@ -9,10 +9,10 @@ session_start();
 // Check if username and password are set in the POST request
 if(isset($_POST['username']) && isset($_POST['password'])) {
     // LDAP server details
-    $ldapserver = '10.24.0.127';
-    $ldapuser = 'cn=Admin,dc=ldap,dc=iitm,dc=ac,dc=in';
-    $ldappass = '00o00opio0+$0';
-    $ldaptree = 'DC=ldap,DC=iitm,DC=ac,DC=in';
+    $ldapserver = '***';
+    $ldapuser = '***';
+    $ldappass = '***';
+    $ldaptree = '***';
 
     // Get username and password from POST data
     $ldapuname = trim($_POST['username']);
